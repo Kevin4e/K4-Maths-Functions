@@ -9,3 +9,6 @@
    
   - ### Logarithm
     Defined as: a<sup>x</sup> = b <=> x = log<sub>a</sub>b
+    
+  - ### Natural logarithm
+    Defined as: ln x = log<sub>e</sub>x
