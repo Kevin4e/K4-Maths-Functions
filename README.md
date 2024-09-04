@@ -8,7 +8,7 @@
     Defined as: _n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1_
    
   - ### Logarithm
-    Defined as: a<sup>x</sup> = b <=> x = log<sub>a</sub>b
+    Defined as: a<sup>x</sup> = b <=> x = log<sub>a</sub> b
     
   - ### Natural logarithm
-    Defined as: ln x = log<sub>e</sub>x
+    Defined as: ln x <=> log<sub>e</sub> x
