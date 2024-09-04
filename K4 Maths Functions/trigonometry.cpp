@@ -77,7 +77,7 @@ double sec_rad(double angle) {
 	return 1 / cos(angle);
 }
 double cot_rad(double angle) {
-	return 1 / tan(angle);
+	return cos(angle) / sin(angle);
 }
 
 double csc_deg(double angle) {
@@ -87,7 +87,7 @@ double sec_deg(double angle) {
 	return 1 / cos( (angle * M_PI) / 180);
 }
 double cot_deg(double angle) {
-	return 1 / tan( (angle * M_PI) / 180);
+	return cos( (angle * M_PI) / 180) / sin( (angle * M_PI) / 180);
 }
 
 double csc_grad(double angle) {
@@ -97,7 +97,7 @@ double sec_grad(double angle) {
 	return 1 / cos( (angle * M_PI) / 200);
 }
 double cot_grad(double angle) {
-	return 1 / tan( (angle * M_PI) / 200);
+	return cos( (angle * M_PI) / 200) / sin( (angle * M_PI) / 200);
 }
 
 
