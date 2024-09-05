@@ -133,7 +133,7 @@
      $Γ(n) = \sqrt{2πn} \left( \frac{n}{e} \right)^{n}$
        
    * ### Summation
-     $\sum_{i=1}^{n} i = i_1 + i_2 + i_3 + ... + i_n$
+     \sum_{i=1}^{n} i = i_1 + i_2 + i_3 + ... + i_n
      ### How to use?
      You need to enter `sum(low_index, high_index, element)`
      
