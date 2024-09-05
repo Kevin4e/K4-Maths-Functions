@@ -5,17 +5,17 @@
 -  Depending on where you put the 'includes' and 'src' folders you will have to edit the `#include "function.h"`. Unless, if you use the same structure as this repository, then you won't have to edit anything.
 -  This collection provides the following functions:
    * ## Factorial 
-      ___n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1___
+     ___n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1___
      ### How to use?
      You need to enter `fact(number)` to use this function.
      
    * ## Logarithm
-      ___a<sup>x</sup> = b <=> x = log<sub>a</sub> b___
+     ___a<sup>x</sup> = b <=> x = log<sub>a</sub> b___
      ### How to use?
      You need to enter `logarithm(base, argument)` to use this function.
     
    * ## Natural logarithm
-     Defined as:   ___ln x = log<sub>e</sub> x___
+     ___ln x = log<sub>e</sub> x___
      ### How to use?
      You need to enter `ln(argument)` to use this function.
      
