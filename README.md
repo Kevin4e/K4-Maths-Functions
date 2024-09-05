@@ -109,7 +109,7 @@
          You need to enter `sec_unit(angle)` to use this function.
          
        - ### $\cot(\theta)$
-         Mathematically, it's the reciprocal of $\tan(\theta)$, so $\frac{\cos(\theta)}{\sin(\theta)}
+         Mathematically, it's the reciprocal of $\tan(\theta)$, so $\frac{\cos(\theta)}{\sin(\theta)}$
          #### How to use?
          You need to enter `cot_unit(angle)` to use this function.
 
