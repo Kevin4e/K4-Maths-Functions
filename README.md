@@ -103,28 +103,28 @@
          #### How to use?
          You need to enter `csc_unit(angle)` to use this function.
          
-       - ### sec(θ)
+       - ### $\sec({\theta})$
          Mathematically, it's the reciprocal of cos(θ), so 1/cos(θ)
          #### How to use?
          You need to enter `sec_unit(angle)` to use this function.
          
-       - ### cot(θ)
+       - ### $\cot({\theta})$
          Mathematically, it's the reciprocal of tan(θ), so cos(θ)/sin(θ)
          #### How to use?
          You need to enter `cot_unit(angle)` to use this function.
 
      + ### Inverse reciprocal functions
-       - ### arccsc(θ)
+       - ### $\arccsc({x})$
          The angle θ whose cosecant is x. E.g. arccsc(1) = π/2 rad -> csc(π/2 rad) = 1
          #### How to use?
          You need to enter `arccsc_unit(number)` to use this function.
          
-       - ### arcsec(θ)
+       - ### $\arcsec({x})$
          The angle θ whose secant is x. E.g. arcsec(1) = 0 rad -> csc(0 rad) = 1
          #### How to use?
          You need to enter `arcsec_unit(number)` to use this function.
       
-       - ### arccot(θ)
+       - ### $\arccot({x})$
          The angle θ whose cotangent is x. E.g. arccot(1) = π/4 rad -> cot(π/4 rad) = 1
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
