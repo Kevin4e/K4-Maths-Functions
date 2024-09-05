@@ -130,9 +130,17 @@
          You need to enter `arccot_unit(number)` to use this function.
          
    * ### Gamma function (Stirling's formula)
-     $Γ(n) = \sqrt{2πn}{\frac{n}{e}}^{n}$
+     $Γ(n) = \sqrt{2πn} \left( \frac{n}{e} \right)^{n}$
        
    * ### Summation
+     $\sum_{i=1}^{n} i = i_1 + i_2 + i_3 + ... + i_n$
+     ### How to use?
+     You need to enter `sum(low_index, high_index, element)`
+     
    * ### Infinite product
+     $\prod_{i=1}^{n} i = i_1 * i_2 * i_3 * ... * i_n$
+     ### How to use?
+     You need to enter `sum(low_index, high_index, element)`
+     
    * ### Hyperbolic functions
      
