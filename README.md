@@ -10,7 +10,7 @@
      
    * ### Logarithm
      Defined as:   ___a<sup>x</sup> = b <=> x = log<sub>a</sub> b___
-     ## How to use?
+     #### How to use?
      You need to enter `logarithm(base, argument)` to use this function.
     
    * ### Natural logarithm
