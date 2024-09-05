@@ -51,7 +51,7 @@
      
    * ## Trigonometry functions
      A wide range of functions are offered here.
-     You're also able to use different angular units, use `function_` + `rad/deg/grad`:
+     You're able to use different angular units, use `function_` + `rad/deg/grad`:
      
      - ### Radiants (RAD)
        Angular unit that has an amplitude range between 0 and 2π (rad)
