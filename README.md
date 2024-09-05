@@ -1,4 +1,4 @@
-# K4 Maths Functions
+![image](https://github.com/user-attachments/assets/cbf8f621-c8eb-4b31-be46-c8807788b964)# K4 Maths Functions
 
 # Usage
 -  Download the latest release from [here](https://github.com/Kevin4e/K4-Maths-Functions/releases).
@@ -6,53 +6,101 @@
 -  This collection provides the following functions:
    * ## Factorial 
      ___n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1___
-     ## How to use?
+     ### How to use?
      You need to enter `fact(number)` to use this function.
      
    * ## Logarithm
      ___a<sup>x</sup> = b <=> x = log<sub>a</sub> b___
-     ## How to use?
+     ### How to use?
      You need to enter `logarithm(base, argument)` to use this function.
     
    * ## Natural logarithm
      ___ln x = log<sub>e</sub> x___
-     ## How to use?
+     ### How to use?
      You need to enter `ln(argument)` to use this function.
      
    * ## Prime number check
      Verifies if a number is either prime or not
-     ## How to use?
+     ### How to use?
      You need to enter `isPrime(number)` to use this function.
 
    * ## Multiples
      Finds all the multiples of 'n' with setting a limit
-     ## How to use?
+     ### How to use?
      You need to enter `multiples(number, max)` to use this function.
      
    * ## Divisors
      Finds all the divisors of 'n'
-     ## How to use?
+     ### How to use?
      You need to enter `divisors(number)` to use this function.
      
    * ## Root
      ___<sup>i</sup>√(n) <=> a<sup>i</sup> = n___
-     ## How to use?
+     ### How to use?
      You need to enter `root(index, radicand)` to use this function.
      
    * ## Greatest Common Divisor
      Finds the G.C.D. of 2 numbers
-     ## How to use?
+     ### How to use?
      You need to enter `gcd(n1, n2)` to use this function.
      
    * ## Least Common Multiple
      Finds the l.c.m. of 2 numbers
-     ## How to use?
+     ### How to use?
      You need to enter `lcm(n1, n2)` to use this function.
      
    * ## Trigonometry functions
      A wide range of functions are offered here.
-     ### sin(θ)
-     The y-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
+     You're also able to use different angular units, use `function_` + `rad/deg/grad`:
+     
+     - ### Radiants (RAD)
+       Angular unit that has an amplitude range between 0 and 2π (rad)
+        
+     - ### Degrees (DEG)
+       Angular unit that has an ampltiude range between 0 and 360 (°)
+ 
+     - ### Centesimal degrees (GRAD)
+       Angular unit that has an amplitude range between 0 and 400 (gon)
+       
+     
+     - ### Basic Functions
+       - ### sin(θ)
+         The x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
+         #### How to use?
+         You need to enter `sin_unit(angle)` to use this function.
+         
+       - ### cos(θ)
+         The y-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
+         #### How to use?
+         You need to enter `cos_unit(angle)` to use this function.
+         
+       - ### tan(θ)
+         The ratio of the y-coordinate to the x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle. Mathematically, it's the result of dividing sin(θ) by cos(θ).
+         #### How to use?
+         You need to enter `tan_unit(angle)` to use this function.
+         
+     - ### Inverse functions
+       - ### arcsin(x)
+         The angle θ whose sine is x. E.g. arcsin(0.5) = π/6 rad -> sin(π/6 rad) = 0.5
+         #### How to use?
+         You need to enter `arcsin_unit(number)` to use this function.
+         
+       - ### arccos(θ)
+         The angle θ whose cosine is x. E.g. arccos(0.5) = π/3 rad -> cos(π/3 rad) = 0.5
+         #### How to use?
+         You need to enter `arcsin_unit(number)` to use this function.
+         
+       - ### arctan(θ)
+         The angle θ whose tangent is x. E.g. arctan(1) = π/4 rad -> tan(π/4 rad) = 1
+         #### How to use?
+         You need to enter `arctan_unit(number)` to use this function.
+         
+     - ### Reciprocal functions
+       - ### sec(θ)
+         Mathematically, it's the reciprocal of sin(![image](https://github.com/user-attachments/assets/224bdd73-822e-4727-bbbb-d00e7c44f6e8)
+
+         #### How to use?
+         You need to enter `arctan_unit(number)` to use this function.
      
    * ### Gamma function
    * ### Summation
