@@ -83,17 +83,17 @@
          
      + ### Inverse functions
        - ### $\arcsin(x)$
-         The angle θ whose sine is x. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin$( $\frac{π}{6}$ rad $)$ = $0.5$
+         The angle $\theta$ whose sine is $x$. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin$( $\frac{π}{6}$ rad $)$ = $0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
        - ### $\arccos(x)$
-         The angle θ whose cosine is x. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos$( $\frac{π}{3}$ rad $)$ = $0.5$
+         The angle $\theta$ whose cosine is $x$. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos$( $\frac{π}{3}$ rad $)$ = $0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
        - ### $\arctan(x)$
-         The angle θ whose tangent is x. E.g. $\arctan(1) = \frac{π}{4}$ rad -> $\tan$( $\frac{π}{4}$ rad $)$ = $1$
+         The angle $\theta$ whose tangent is $x$. E.g. $\arctan(1) = \frac{π}{4}$ rad -> $\tan$( $\frac{π}{4}$ rad $)$ = $1$
          #### How to use?
          You need to enter `arctan_unit(number)` to use this function.
          
@@ -115,17 +115,17 @@
 
      + ### Inverse reciprocal functions
        - ### $\arccsc(x)$
-         The angle θ whose cosecant is x. E.g. arccsc(1) = π/2 rad -> csc(π/2 rad) = 1
+         The angle $\theta$ whose cosecant is $x$. E.g. arccsc(1) = π/2 rad -> csc(π/2 rad) = 1
          #### How to use?
          You need to enter `arccsc_unit(number)` to use this function.
          
        - ### $\arcsec(x)$
-         The angle θ whose secant is x. E.g. arcsec(1) = 0 rad -> csc(0 rad) = 1
+         The angle $\theta$ whose secant is $x$. E.g. arcsec(1) = 0 rad -> csc(0 rad) = 1
          #### How to use?
          You need to enter `arcsec_unit(number)` to use this function.
       
        - ### $\arccot(x)$
-         The angle θ whose cotangent is x. E.g. arccot(1) = π/4 rad -> cot(π/4 rad) = 1
+         The angle $\theta$ whose cotangent is $x$. E.g. arccot(1) = π/4 rad -> cot(π/4 rad) = 1
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
          
