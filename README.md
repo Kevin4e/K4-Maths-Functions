@@ -25,23 +25,35 @@
      You need to enter `isPrime(number)` to use this function.
 
    * ## Multiples
-     Prints all the multiples of 'n' with setting a limit
+     Finds all the multiples of 'n' with setting a limit
      ### How to use?
      You need to enter `multiples(number, max)` to use this function.
      
    * ## Divisors
-     Prints all the divisors of 'n'
+     Finds all the divisors of 'n'
      ### How to use?
      You need to enter `divisors(number)` to use this function.
      
    * ## Root
-     Defined as:   ___<sup>i</sup>√(n) <=> a<sup>i</sup> = n___
+     ___<sup>i</sup>√(n) <=> a<sup>i</sup> = n___
      ### How to use?
      You need to enter `root(index, radicand)` to use this function.
      
-   * ### Greatest Common Divisor
-   * ### Least Common Multiple
+   * ## Greatest Common Divisor
+     Finds the G.C.D. of 2 numbers
+     ## How to use?
+     You need to enter `gcd(n1, n2)` to use this function.
+     
+   * ## Least Common Multiple
+     Finds the l.c.m. of 2 numbers
+     ## How to use?
+     You need to enter `lcm(n1, n2)` to use this function.
+     
    * ### Trigonometry functions
+     A wide range of functions are offered here.
+     ### sin({\displaystyle \theta })
+     The y-coordinate of the point of intersection between the terminal side of the angle {\displaystyle \theta } and the unit circle.
+     
    * ### Gamma function
    * ### Summation
    * ### Infinite product
