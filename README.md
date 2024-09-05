@@ -83,17 +83,17 @@
          
      + ### Inverse functions
        - ### $\arcsin(x)$
-         The angle θ whose sine is x. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin(\frac{π}{6}$ rad$)$ = $0.5$
+         The angle θ whose sine is x. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin(\frac{π}{6}$ rad $)$ = $0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
        - ### $\arccos(x)$
-         The angle θ whose cosine is x. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos(\frac{π}{3}$ rad$)$ = $0.5$
+         The angle θ whose cosine is x. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos(\frac{π}{3}$ rad $)$ = $0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
        - ### $\arctan(x)$
-         The angle θ whose tangent is x. E.g. $\arctan(1) = \frac{π}{4}$ rad -> $\tan(\frac{π}{4}$ rad$)$ = $1$
+         The angle θ whose tangent is x. E.g. $\arctan(1) = \frac{π}{4}$ rad -> $\tan(\frac{π}{4}$ rad $)$ = $1$
          #### How to use?
          You need to enter `arctan_unit(number)` to use this function.
          
