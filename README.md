@@ -114,7 +114,7 @@
          You need to enter `cot_unit(angle)` to use this function.
 
      + ### Inverse reciprocal functions
-       - ### $\arccsc({x})$
+       - ### $\arccsc(x)$
          The angle θ whose cosecant is x. E.g. arccsc(1) = π/2 rad -> csc(π/2 rad) = 1
          #### How to use?
          You need to enter `arccsc_unit(number)` to use this function.
