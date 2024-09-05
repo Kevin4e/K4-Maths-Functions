@@ -99,7 +99,7 @@
          
      + ### Reciprocal functions
        - ### $\csc(\theta)$
-         Mathematically, it's the reciprocal of sin(θ), so 1/sin(θ)
+         Mathematically, it's the reciprocal of \sin(\theta), so frac{1}{\sin(\theta)}
          #### How to use?
          You need to enter `csc_unit(angle)` to use this function.
          
