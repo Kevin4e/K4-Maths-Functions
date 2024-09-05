@@ -5,9 +5,7 @@
 -  Depending on where you put the 'includes' and 'src' folders you will have to edit the `#include "function.h"`. Unless, if you use the same structure as this repository, then you won't have to edit anything.
 -  This collection provides the following functions:
    * ## Factorial
-     $$
-     n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1
-     $$
+     $ n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1 $
      ### How to use?
      You need to enter `fact(number)` to use this function.
      
