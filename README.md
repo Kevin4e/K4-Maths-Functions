@@ -83,7 +83,7 @@
          
      + ### Inverse functions
        - ### $\arcsin(x)$
-         The angle θ whose sine is x. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin( \frac{π}{6}$ rad $)$ = $0.5$
+         The angle θ whose sine is x. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin$( $\frac{π}{6}$ rad $)$ = $0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
