@@ -35,8 +35,7 @@
      You need to enter `divisors(number)` to use this function.
      
    * ## Root
-     ___<sup>i</sup>√(n) <=> a<sup>i</sup> = n___
-     $\sqrt[i]{n} = a <=> n = a^i$
+     ### $\sqrt[i]{n} = a <=> n = a^i$
      ### How to use?
      You need to enter `root(index, radicand)` to use this function.
      
