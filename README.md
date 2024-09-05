@@ -96,12 +96,37 @@
          You need to enter `arctan_unit(number)` to use this function.
          
      - ### Reciprocal functions
-       - ### sec(θ)
-         Mathematically, it's the reciprocal of sin(![image](https://github.com/user-attachments/assets/224bdd73-822e-4727-bbbb-d00e7c44f6e8)
-
+       - ### csc(θ)
+         Mathematically, it's the reciprocal of sin(θ), so 1/sin(θ)
          #### How to use?
-         You need to enter `arctan_unit(number)` to use this function.
-     
+         You need to enter `csc_unit(angle)` to use this function.
+         
+       - ### sec(θ)
+         Mathematically, it's the reciprocal of cos(θ), so 1/cos(θ)
+         #### How to use?
+         You need to enter `sec_unit(angle)` to use this function.
+         
+       - ### cot(θ)
+         Mathematically, it's the reciprocal of tan(θ), so cos(θ)/sin(θ)
+         #### How to use?
+         You need to enter `cot_unit(angle)` to use this function.
+
+     - ### Inverse reciprocal functions
+       - ### arccsc(θ)
+         The angle θ whose cosecant is x. E.g. arccsc(1) = π/2 rad -> csc(π/2 rad) = 1
+         #### How to use?
+         You need to enter `arccsc_unit(number)` to use this function.
+         
+       - ### arcsec(θ)
+         The angle θ whose secant is x. E.g. arcsec(1) = 0 rad -> csc(0 rad) = 1
+         #### How to use?
+         You need to enter `arcsec_unit(number)` to use this function.
+      
+       - ### arccot(θ)
+         The angle θ whose cotangent is x. E.g. arccot(1) = π/4 rad -> cot(π/4 rad) = 1
+         #### How to use?
+         You need to enter `arccot_unit(number)` to use this function.
+         
    * ### Gamma function
    * ### Summation
    * ### Infinite product
