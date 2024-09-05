@@ -55,14 +55,14 @@
      + ### Angular units
        You're able to use different angular units, use `function_` + `rad/deg/grad`.
        
-       - ### Radiants (RAD)
-       Angular unit that has an amplitude range between 0 and 2π (rad)
+       - #### Radiants (RAD)
+         Angular unit that has an amplitude range between 0 and 2π (rad)
         
-       - ### Degrees (DEG)
-       Angular unit that has an ampltiude range between 0 and 360 (°)
+       - #### Degrees (DEG)
+         Angular unit that has an ampltiude range between 0 and 360 (°)
  
-       - ### Centesimal degrees (GRAD)
-       Angular unit that has an amplitude range between 0 and 400 (gon)
+       - #### Centesimal degrees (GRAD)
+         Angular unit that has an amplitude range between 0 and 400 (gon)
        
      
      + ### Basic Functions
