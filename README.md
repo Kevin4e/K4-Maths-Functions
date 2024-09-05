@@ -68,17 +68,17 @@
      + ### Basic Functions
        - ### sin(θ)
          The x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
-         #### How to use?
+         ### How to use?
          You need to enter `sin_unit(angle)` to use this function.
          
        - ### cos(θ)
          The y-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
-         #### How to use?
+         ### How to use?
          You need to enter `cos_unit(angle)` to use this function.
          
        - ### tan(θ)
          The ratio of the y-coordinate to the x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle. Mathematically, it's the result of dividing sin(θ) by cos(θ).
-         #### How to use?
+         ### How to use?
          You need to enter `tan_unit(angle)` to use this function.
          
      + ### Inverse functions
