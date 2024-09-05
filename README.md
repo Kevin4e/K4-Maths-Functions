@@ -15,7 +15,7 @@
      You need to enter `logarithm(base, argument)` to use this function.
     
    * ## Natural logarithm
-     ___ln x = log<sub>e</sub> x___
+     $\ln_{x} = \log_{e}{x}$
      ### How to use?
      You need to enter `ln(argument)` to use this function.
      
