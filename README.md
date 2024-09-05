@@ -56,17 +56,17 @@
        You're able to use different angular units, use `function_` + `rad/deg/grad`.
        
        - #### Radiants (RAD)
-         Angular unit that has an amplitude range between 0 and 2π (rad)
+         Angular unit that has an amplitude range between $0$ and $2π$ (rad)
         
        - #### Degrees (DEG)
-         Angular unit that has an ampltiude range between 0 and 360 (°)
+         Angular unit that has an ampltiude range between $0$ and $360$ (°)
  
        - #### Centesimal degrees (GRAD)
-         Angular unit that has an amplitude range between 0 and 400 (gon)
+         Angular unit that has an amplitude range between $0$ and $400$ (gon)
        
      
      + ### Basic Functions
-       - ### sin(θ)
+       - ### $\sin{\theta}$
          The x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
          ### How to use?
          You need to enter `sin_unit(angle)` to use this function.
