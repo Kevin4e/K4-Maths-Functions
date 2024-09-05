@@ -88,7 +88,7 @@
          You need to enter `arcsin_unit(number)` to use this function.
          
        - ### $\arccos(x)$
-         The angle θ whose cosine is x. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos( \frac{π}{3}$ rad $)$ = $0.5$
+         The angle θ whose cosine is x. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos$$($ $\frac{π}{3}$ rad $)$ = $0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
