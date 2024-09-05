@@ -10,26 +10,32 @@
      
    * ### Logarithm
      Defined as:   ___a<sup>x</sup> = b <=> x = log<sub>a</sub> b___
+     ## How to use?
      You need to enter `logarithm(base, argument)` to use this function.
     
    * ### Natural logarithm
      Defined as:   ___ln x = log<sub>e</sub> x___
+     ## How to use?
      You need to enter `ln(argument)` to use this function.
      
    * ### Prime number check
-     Verifies if a number is either prime or not (boolean)
+     Verifies if a number is either prime or not
+     ## How to use?
      You need to enter `isPrime(number)` to use this function.
 
    * ### Multiples
      Prints all the multiples of 'n' with setting a limit
+     ## How to use?
      You need to enter `multiples(number, max)` to use this function.
      
    * ### Divisors
      Prints all the divisors of 'n'
+     ## How to use?
      You need to enter `divisors(number)` to use this function.
      
    * ### Root
      Defined as:   ___<sup>i</sup>√(n) <=> a<sup>i</sup> = n___
+     ## How to use?
      You need to enter `root(index, radicand)` to use this function.
      
    * ### Greatest Common Divisor
