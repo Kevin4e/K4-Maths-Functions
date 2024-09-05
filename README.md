@@ -77,7 +77,7 @@
          You need to enter `cos_unit(angle)` to use this function.
          
        - ### $\tan(\theta)$
-         The ratio of the y-coordinate to the x-coordinate of the point of intersection between the terminal side of the angle $\theta$ and the unit circle. Mathematically, it's the result of $\frac{\sin(\theta)}{\cos(\theta)}$.
+         The ratio of the y-coordinate to the x-coordinate of the point of intersection between the terminal side of the angle $\theta$ and the unit circle. Mathematically, it's the result of #### $\frac{\sin(\theta)}{\cos(\theta)}$
          ### How to use?
          You need to enter `tan_unit(angle)` to use this function.
          
