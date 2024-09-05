@@ -10,7 +10,7 @@
      You need to enter `fact(number)` to use this function.
      
    * ## Logarithm
-     ___a<sup>x</sup> = b <=> x = log<sub>a</sub> b___
+     $a^x = b <=> x = \log_{a}{b}$
      ### How to use?
      You need to enter `logarithm(base, argument)` to use this function.
     
