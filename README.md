@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cbf8f621-c8eb-4b31-be46-c8807788b964)# K4 Maths Functions
+# K4 Maths Functions
 
 # Usage
 -  Download the latest release from [here](https://github.com/Kevin4e/K4-Maths-Functions/releases).
