@@ -66,7 +66,7 @@
        
      
      + ### Basic Functions
-       - ### $\sin({\theta})$
+       - ### $\sin(\theta)$
          The x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
          ### How to use?
          You need to enter `sin_unit(angle)` to use this function.
