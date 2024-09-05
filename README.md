@@ -104,7 +104,7 @@
          You need to enter `csc_unit(angle)` to use this function.
          
        - ### $\sec(\theta)$
-         Mathematically, it's the reciprocal of $\cos(\theta), so frac{1}{\cos(\theta)}$
+         Mathematically, it's the reciprocal of $\cos(\theta)$, so $frac{1}{\cos(\theta)}$
          #### How to use?
          You need to enter `sec_unit(angle)` to use this function.
          
