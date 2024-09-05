@@ -130,7 +130,7 @@
          You need to enter `arccot_unit(number)` to use this function.
          
    * ### Gamma function (Stirling's formula)
-     $Γ(n) = \sqrt{2πn} \left( \frac{n}{e} \right)^{n}$
+     $Γ(n) = \sqrt{2πn}{\frac{n}{e}}^{n}$
        
    * ### Summation
    * ### Infinite product
