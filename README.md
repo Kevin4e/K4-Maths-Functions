@@ -12,6 +12,3 @@
     
    - ### Natural logarithm
     Defined as: ln x <=> log<sub>e</sub> x
-
-# Notes
--  
