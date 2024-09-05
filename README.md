@@ -67,17 +67,17 @@
      
      + ### Basic Functions
        - ### $\sin(\theta)$
-         The x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
+         The x-coordinate of the point of intersection between the terminal side of the angle $\theta$ and the unit circle.
          ### How to use?
          You need to enter `sin_unit(angle)` to use this function.
          
        - ### $\cos(\theta)$
-         The y-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle.
+         The y-coordinate of the point of intersection between the terminal side of the angle $\theta$ and the unit circle.
          ### How to use?
          You need to enter `cos_unit(angle)` to use this function.
          
        - ### $\tan(\theta)$
-         The ratio of the y-coordinate to the x-coordinate of the point of intersection between the terminal side of the angle θ and the unit circle. Mathematically, it's the result of dividing sin(θ) by cos(θ).
+         The ratio of the y-coordinate to the x-coordinate of the point of intersection between the terminal side of the angle $\theta$ and the unit circle. Mathematically, it's the result of $\fract{\sin(\theta)}{\cos(\theta)}$.
          ### How to use?
          You need to enter `tan_unit(angle)` to use this function.
          
