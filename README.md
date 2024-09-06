@@ -120,12 +120,12 @@
          You need to enter `arccsc_unit(number)` to use this function.
          
        - ### $\arcsec(x)$
-         The angle $\theta$ whose secant is $x$. E.g. $\arcsec(1) = 0$ rad -> $\csc$( $0$ rad $) = 1$
+         The angle $\theta$ whose secant is $x$. E.g. $\arcsec(1) = 0$ rad -> $\sec$( $0$ rad $) = 1$
          #### How to use?
          You need to enter `arcsec_unit(number)` to use this function.
       
        - ### $\arccot(x)$
-         The angle $\theta$ whose cotangent is $x$. E.g. arccot(1) = π/4 rad -> cot(π/4 rad) = 1
+         The angle $\theta$ whose cotangent is $x$. E.g. $\arccot(1) = \frac{π}{4}$ rad -> $\cot$( $frac{π}{4}$ rad $) = 1$
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
          
