@@ -145,4 +145,5 @@
      You need to enter `infproduct(low_index, high_index, element)`
      
    * ### Hyperbolic functions
-     
+     + ### Angular units
+       You're able to use different angular units. Check [the available ones][#angular-units].
