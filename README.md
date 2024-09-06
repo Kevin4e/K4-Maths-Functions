@@ -129,22 +129,22 @@
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
          
-   * ### Gamma function (Stirling's formula)
+   * ## Gamma function (Stirling's formula)
      ### $Γ(n) = \sqrt{2πn} \left( \frac{n}{e} \right)^{n}$
      ### How to use?
      You need to enter `gamma(number)` to use this function.
        
-   * ### Summation
+   * ## Summation
      ### $\sum\limits_{i=1}^n i = i_1 + i_2 + i_3 + \cdots + i_n$
      ### How to use?
      You need to enter `sum(low_index, high_index, element)`
      
-   * ### Infinite product
+   * ## Infinite product
      ### $\prod\limits_{i=1}^n i = i_1 * i_2 * i_3 * \cdots * i_n$
      ### How to use?
      You need to enter `infproduct(low_index, high_index, element)`
      
-   * ### Hyperbolic functions
+   * ## Hyperbolic functions
      + ### Angular units
        You're able to use different angular units, use `function_` + `rad/deg/grad`.
        
@@ -159,5 +159,7 @@
          
 
      + ### Basic functions
-       - ### $\sinh(\theta) = \frac{e^x - e^-x}{2}$
+       - ### $\sinh(\theta)$
+         #### $\sinh(x) = \frac{e^x - e^{-x}}{2}$
+
          
