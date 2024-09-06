@@ -163,6 +163,6 @@
          
      + ### Reciprocal functions
        - ### Hyperbolic cosecant
-         ### $\csch(x) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}}
+         ### $\csch(x) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}}$
 
          
