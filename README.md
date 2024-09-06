@@ -115,7 +115,7 @@
 
      + ### Inverse reciprocal functions
        - ### $\arccsc(x)$
-         The angle $\theta$ whose cosecant is $x$. E.g. arccsc(1) = π/2 rad -> csc(π/2 rad) = 1
+         The angle $\theta$ whose cosecant is $x$. E.g. $\arccsc(1) = \frac{π}{2}$ rad -> $\csc$( $\frac{π}{2}$ rad $) = 1$
          #### How to use?
          You need to enter `arccsc_unit(number)` to use this function.
          
@@ -131,6 +131,8 @@
          
    * ### Gamma function (Stirling's formula)
      ### $Γ(n) = \sqrt{2πn} \left( \frac{n}{e} \right)^{n}$
+     ### How to use?
+     You need to enter `gamma(number)` to use this function.
        
    * ### Summation
      ### $\sum\limits_{i=1}^n i = i_1 + i_2 + i_3 + \cdots + i_n$
