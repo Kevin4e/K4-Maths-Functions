@@ -145,21 +145,24 @@
      You need to enter `infproduct(low_index, high_index, element)`
      
    * ## Hyperbolic functions
-     + ### Angular units
-       You're able to use different angular units, use `function_` + `rad/deg/grad`.
-       
-       - #### Radiants (RAD)
-         Angular unit that has an amplitude range between $0$ and $2π$ (rad)
-        
-       - #### Degrees (DEG)
-         Angular unit that has an ampltiude range between $0$ and $360$ (°)
- 
-       - #### Centesimal degrees (GRAD)
-         Angular unit that has an amplitude range between $0$ and $400$ (gon)
-         
-
      + ### Basic functions
-       - ### $\sinh(\theta)$
-         #### $\sinh(x) = \frac{e^x - e^{-x}}{2}$
+       - ### Hyperbolic sine
+         ### $\sinh(x) = \frac{e^x - e^{-x}}{2}$
+         ### How to use?
+         You need to enter `sinh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
+         
+       - ### Hyperbolic cosine
+         ### $\cosh(x) = \frac{e^x + e^{-x}}{2}$
+         ### How to use?
+         You need to enter `cosh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
+         
+       - Hyperbolic tangent
+         ### $\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+         ### How to use?
+         You need to enter `tanh(number)`  (! ALREADY IMPLEMENTED IN `cmath` !)
+         
+     + ### Reciprocal functions
+       - ### Hyperbolic cosecant
+         ### $\csch(x) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}}
 
          
