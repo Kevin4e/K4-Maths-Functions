@@ -168,7 +168,7 @@
          You need to enter `csch(number)` to use this function.
 
        - ### Hyperbolic secant
-         ### $\sech(x) = \frac{1}{\cosh(x)}} = \frac{1}{\frac{e^x + e^{-x}}{2}} = \frac{2}{e^x + e^{-x}}$
+         ### $\sech(x) = \frac{1}{\cosh(x)} = \frac{1}{\frac{e^x + e^{-x}}{2}} = \frac{2}{e^x + e^{-x}}$
          ### How to use?
          You need to enter `sech(number)` to use this function.
 
