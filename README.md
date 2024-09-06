@@ -159,5 +159,5 @@
          
 
      + ### Basic functions
-       - ### $\sinh(\theta) = \fract{e^x - e^(-x)}{2}$
+       - ### $\sinh(\theta) = \fract{e^x - e^-x}{2}$
          
