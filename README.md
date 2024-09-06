@@ -125,7 +125,7 @@
          You need to enter `arcsec_unit(number)` to use this function.
       
        - ### $\arccot(x)$
-         The angle $\theta$ whose cotangent is $x$. E.g. $\arccot(1) = \frac{π}{4}$ rad -> $\cot$( $frac{π}{4}$ rad $) = 1$
+         The angle $\theta$ whose cotangent is $x$. E.g. $\arccot(1) = \frac{π}{4}$ rad -> $\cot$( $\frac{π}{4}$ rad $) = 1$
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
          
