@@ -2,68 +2,43 @@
 
 #include "..\includes\hyperbolic.h"
 #include <cmath>
-
-// Hyperbolic functions
-
-double sinh_rad(double angle) {
-	return sinh(angle);
-}
-double cosh_rad(double angle) {
-	return cosh(angle);
-}
-double tanh_rad(double angle) {
-	return tanh(angle);
-}
-
-double sinh_deg(double angle) {
-	return sinh( (angle * M_PI) / 180);
-}
-double cosh_deg(double angle) {
-	return cosh( (angle * M_PI) / 180);
-}
-double tanh_deg(double angle) {
-	return tanh( (angle * M_PI) / 180);
-}
-
-double sinh_grad(double angle) {
-	return sinh( (angle * M_PI) / 200);
-}
-double cosh_grad(double angle) {
-	return cosh( (angle * M_PI) / 200);
-}
-double tanh_grad(double angle) {
-	return tanh( (angle * M_PI) / 200);
-}
-
+#include <iostream>
 
 // Inverse hyperbolic functions
 
-double csch_rad(double angle) {
-	return 1 / sinh(angle);
-}
-double sech_rad(double angle) {
-	return 1 / cosh(angle);
-}
-double coth_rad(double angle) {
-	return 1 / tanh(angle);
+double arcsinh(double n) {
+	return log(n + sqrt(pow(n, 2) + 1));
 }
 
-double csch_deg(double angle) {
-	return 1 / sinh( (angle * M_PI) / 180);
+double arccosh(double n) {
+	return log(n + sqrt(pow(n, 2) - 1));
 }
-double sech_deg(double angle) {
-	return 1 / cosh( (angle * M_PI) / 180);
-}
-double coth_deg(double angle) {
-	return 1 / tanh( (angle * M_PI) / 180);
+double arctanh(double n) {
+	return (1/2) * log( (1 + n) / (1 - n) );
 }
 
-double csch_grad(double angle) {
-	return 1 / sinh( (angle * M_PI) / 200);
+
+// Hyperbolic reciprocal functions
+
+double csch(double n) {
+	return 1 / sinh(n);
 }
-double sech_grad(double angle) {
-	return 1 / cosh( (angle * M_PI) / 200);
+double sech(double n) {
+	return 1 / cosh(n);
 }
-double coth_grad(double angle) {
-	return 1 / tanh( (angle * M_PI) / 200);
+double coth(double n) {
+	return cosh(n) / sinh(n);
+}
+
+
+// Hyperbolic inverse reciprocal functions
+
+double arccsch(double n) {
+	return log(1 + sqrt(1 + pow(n, 2))) / n;
+}
+double arcsech(double n) {
+	return log(1/n + sqrt(pow(1/n, 2) - 1));
+}
+double arccoth(double n) {
+	return (1 / 2) * log((n + 1) / (n - 1));
 }

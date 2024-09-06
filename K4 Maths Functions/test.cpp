@@ -746,17 +746,22 @@ int main() {
 		}
 		else if (choice == 15) {
 			double hypfunction;
-			double angular_unit;
 
 			do {
 				std::cout << "Choose the hyperbolic function:" << std::endl;
-				std::cout << "1. sinh \n";
-				std::cout << "2. cosh \n";
-				std::cout << "3. tanh \n";
-				std::cout << "4. csch \n";
-				std::cout << "5. sech \n";
-				std::cout << "6. coth \n";
-				std::cout << "0. exit \n";
+				std::cout << "1.  sinh \n";
+				std::cout << "2.  cosh \n";
+				std::cout << "3.  tanh \n";
+				std::cout << "4.  arcsinh \n";
+				std::cout << "5.  arccosh \n";
+				std::cout << "6.  arctanh \n";
+				std::cout << "7.  csch \n";
+				std::cout << "8.  sech \n";
+				std::cout << "9.  coth \n";
+				std::cout << "10. arccsch \n";
+				std::cout << "11. arcsech \n";
+				std::cout << "12. arccoth \n";
+				std::cout << "0.  exit \n";
 				std::cout << std::endl;
 				
 				std::cout << "Enter your choice (1, 2, 3, 4, 5, 6 or 0): ";
@@ -765,7 +770,7 @@ int main() {
 				if (hypfunction == 0) {
 					break;
 				}
-				else if ((hypfunction < 1 || hypfunction > 6) || floor(hypfunction) != hypfunction) {
+				else if ((hypfunction < 1 || hypfunction > 12) || floor(hypfunction) != hypfunction) {
 					std::cout << std::endl;
 					std::cerr << "Invalid input!" << std::endl;
 					std::cout << std::endl;
@@ -774,113 +779,104 @@ int main() {
 
 				std::cout << std::endl;
 
+				double n;
+
 				do {
-					std::cout << "Choose the angular unit:" << std::endl;
-					std::cout << "1. Radiants \n";
-					std::cout << "2. Degrees \n";
-					std::cout << "3. Gradiants \n";
-					std::cout << "-1 exit \n";
-					std::cout << std::endl;
-
-					std::cout << "Enter your choice (1, 2, 3 or -1): ";
-					std::cin >> angular_unit;
-
-					if (angular_unit == -1) {
-						break;
-					}
-					else if ((angular_unit < 1 || angular_unit > 3) || floor(angular_unit) != angular_unit) {
-						std::cout << std::endl;
-						std::cerr << "Invalid input!" << std::endl;
-						std::cout << std::endl;
-						continue;
-					}
+					std::cout << "Enter a number: ";
+					std::cin >> n;
 
 					std::cout << std::endl;
 
-					double n;
-
-					do {
-						std::cout << "Enter a number: ";
-						std::cin >> n;
-
-						std::cout << std::endl;
-
-						if ((hypfunction == 4 || hypfunction == 6) && n == 0) {
-							std::cout << "The result is not defined!" << std::endl;
-							std::cout << std::endl;
-							continue;
-						}
-					} while ((hypfunction == 4 || hypfunction == 6) && n == 0);
-
-					if (angular_unit == 1) {
-						if (hypfunction == 1) {
-							std::cout << "The result is: sinh(" << n << " rad) = " << sinh_rad(n);
-						}
-						else if (hypfunction == 2) {
-							std::cout << "The result is: cosh(" << n << " rad) = " << cosh_rad(n);
-						}
-						else if (hypfunction == 3) {
-							std::cout << "The result is: tanh(" << n << " rad) = " << tanh_rad(n);
-						}
-						else if (hypfunction == 4) {
-							std::cout << "The result is: csch(" << n << " rad) = " << csch_rad(n);
-						}
-						else if (hypfunction == 5) {
-							std::cout << "The result is: sech(" << n << " rad) = " << sech_rad(n);
+					if (hypfunction == 1) {
+						std::cout << "The result is: ";
+						std::cout << sinh(n);
+					}
+					else if (hypfunction == 2) {
+						std::cout << "The result is: ";
+						std::cout << cosh(n);
+					}
+					else if (hypfunction == 3) {
+						std::cout << "The result is: ";
+						std::cout << tanh(n);
+					}
+					else if (hypfunction == 4) {
+						std::cout << "The result is: ";
+						std::cout << arcsinh(n);
+					}
+					else if (hypfunction == 5) {
+						if (n < 1) {
+							std::cout << "The result is undefined!" << std::endl;
 						}
 						else {
-							std::cout << "The result is: coth(" << n << " rad) = " << coth_rad(n);
+							std::cout << "The result is: ";
+							std::cout << arccosh(n);
 						}
 					}
-					else if (angular_unit == 2) {
-						if (hypfunction == 1) {
-							std::cout << "The result is: sinh(" << n << " deg) = " << sinh_deg(n);
-						}
-						else if (hypfunction == 2) {
-							std::cout << "The result is: cosh(" << n << " deg) = " << cosh_deg(n);
-						}
-						else if (hypfunction == 3) {
-							std::cout << "The result is: tanh(" << n << " deg) = " << tanh_deg(n);
-						}
-						else if (hypfunction == 4) {
-							std::cout << "The result is: csch(" << n << " deg) = " << csch_deg(n);
-						}
-						else if (hypfunction == 5) {
-							std::cout << "The result is: sech(" << n << " deg) = " << sech_deg(n);
+					else if (hypfunction == 6) {
+						if (n <= -1 || n >= 1) {
+							std::cout << "The result is undefined!" << std::endl;
 						}
 						else {
-							std::cout << "The result is: coth(" << n << " deg) = " << coth_deg(n);
+							std::cout << "The result is: ";
+							std::cout << arctanh(n);
 						}
 					}
-					else {
-						if (hypfunction == 1) {
-							std::cout << "The result is: sinh(" << n << " grad) = " << sinh_grad(n);
-						}
-						else if (hypfunction == 2) {
-							std::cout << "The result is: cosh(" << n << " grad) = " << cosh_grad(n);
-						}
-						else if (hypfunction == 3) {
-							std::cout << "The result is: tanh(" << n << " grad) = " << tanh_grad(n);
-						}
-						else if (hypfunction == 4) {
-							std::cout << "The result is: csch(" << n << " grad) = " << csch_grad(n);
-						}
-						else if (hypfunction == 5) {
-							std::cout << "The result is: sech(" << n << " grad) = " << sech_grad(n);
+					else if (hypfunction == 7) {
+						if (n == 0) {
+							std::cout << "The result is undefined!" << std::endl;
 						}
 						else {
-							std::cout << "The result is: coth(" << n << " grad) = " << coth_grad(n);
+							std::cout << "The result is: ";
+							std::cout << csch(n);
 						}
 					}
-					std::cout << std::endl;
-					break;
+					else if (hypfunction == 8) {
+						std::cout << "The result is: ";
+						std::cout << sech(n);
+					}
+					else if (hypfunction == 9) {
+						if (n == 0) {
+							std::cout << "The result is undefined!" << std::endl;
+						}
+						else {
+							std::cout << "The result is: ";
+							std::cout << coth(n);
+						}
+					}
+					else if (hypfunction == 10) {
+						if (n == 0) {
+							std::cout << "The result is undefined!" << std::endl;
+						}
+						else {
+							std::cout << "The result is: ";
+							std::cout << arccsch(n);
+						}
+					}
+					else if (hypfunction == 11) {
+						if (n <= 0 || n > 1) {
+							std::cout << "The result is undefined!" << std::endl;
+						}
+						else {
+							std::cout << "The result is: ";
+							std::cout << arcsech(n);
+						}
+					}
+					else if (hypfunction == 12) {
+						if (n >= -1 && n <= 1) {
+							std::cout << "The result is undefined!" << std::endl;
+						}
+						else {
+							std::cout << "The result is ";
+							std::cout << arccoth(n);
+						}
+					}
 
-					// If 'angular_unit' is an invalid value, it will keep going until it's valid
-				} while ((angular_unit < 1 || angular_unit > 3) || floor(angular_unit) != angular_unit);
-				break;
+				} while ((hypfunction == 5 && n < 1) || (hypfunction == 6 && (n <= -1 || n >= 1)) || ((hypfunction == 7 || hypfunction == 9 || hypfunction == 10) && n == 0) || (hypfunction == 11 && (n <= 0 || n > 1)) || (hypfunction == 12 && (n >= -1 && n <= 1)));
 
-				// If 'hypfunction' is an invalid value it will keep going. When 'angular_unit' is -1, then this cycle, like the previous one, should stop as well.
-			} while (((hypfunction < 1 || hypfunction > 6) || floor(hypfunction) != hypfunction) || angular_unit != -1);
+				std::cout << std::endl;
+
+				
+			} while (((hypfunction < 1 || hypfunction > 12) || floor(hypfunction) != hypfunction));
 		} 
 		else {
 			std::cout << "Invalid input!" << std::endl;

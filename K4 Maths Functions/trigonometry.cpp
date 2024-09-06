@@ -68,6 +68,7 @@ double arctan_grad(double n) {
 	return (atan(n) * 200) / M_PI;
 }
 
+
 // Reciprocal trigonometric functions
 
 double csc_rad(double angle) {
