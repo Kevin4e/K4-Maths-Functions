@@ -159,4 +159,5 @@
          
 
      + ### Basic functions
-       - ### \sin(\theta)
+       - ### $\sinh(\theta) = \fract{e^x - e^(-x)}{2}$
+         
