@@ -156,8 +156,8 @@
          ### How to use?
          You need to enter `cosh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
          
-       - Hyperbolic tangent
-         ### $\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}
+       - ### Hyperbolic tangent
+         ### $\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
          ### How to use?
          You need to enter `tanh(number)`  (! ALREADY IMPLEMENTED IN `cmath` !)
          
