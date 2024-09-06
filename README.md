@@ -82,18 +82,18 @@
          You need to enter `tan_unit(angle)` to use this function.
          
      + ### Inverse functions
-       - ### $\arcsin(x)$
-         The angle $\theta$ whose sine is $x$. E.g. $\arcsin(0.5) = \frac{π}{6}$ rad -> $\sin$( $\frac{π}{6}$ rad $) = 0.5$
+       - ### $\sin^{-1}(x)
+         The angle $\theta$ whose sine is $x$. E.g. $\sin^{-1}(0.5) = \frac{π}{6}$ rad -> $\sin$( $\frac{π}{6}$ rad $) = 0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
-       - ### $\arccos(x)$
-         The angle $\theta$ whose cosine is $x$. E.g. $\arccos(0.5) = \frac{π}{3}$ rad -> $\cos$( $\frac{π}{3}$ rad $) = 0.5$
+       - ### $\cos^{-1}(x)
+         The angle $\theta$ whose cosine is $x$. E.g. $\cos^{-1}(0.5) = \frac{π}{3}$ rad -> $\cos$( $\frac{π}{3}$ rad $) = 0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
-       - ### $\arctan(x)$
-         The angle $\theta$ whose tangent is $x$. E.g. $\arctan(1) = \frac{π}{4}$ rad -> $\tan$( $\frac{π}{4}$ rad $) = 1$
+       - ### $\tan^{-1}(x)
+         The angle $\theta$ whose tangent is $x$. E.g. $\tan^{-1}(1) = \frac{π}{4}$ rad -> $\tan$( $\frac{π}{4}$ rad $) = 1$
          #### How to use?
          You need to enter `arctan_unit(number)` to use this function.
          
@@ -114,18 +114,18 @@
          You need to enter `cot_unit(angle)` to use this function.
 
      + ### Inverse reciprocal functions
-       - ### $\arccsc(x)$
-         The angle $\theta$ whose cosecant is $x$. E.g. $\arccsc(1) = \frac{π}{2}$ rad -> $\csc$( $\frac{π}{2}$ rad $) = 1$
+       - ### $\csc^{-1}(x)
+         The angle $\theta$ whose cosecant is $x$. E.g. $\csc^{-1}(1) = \frac{π}{2}$ rad -> $\csc$( $\frac{π}{2}$ rad $) = 1$
          #### How to use?
          You need to enter `arccsc_unit(number)` to use this function.
          
-       - ### $\arcsec(x)$
-         The angle $\theta$ whose secant is $x$. E.g. $\arcsec(1) = 0$ rad -> $\sec$( $0$ rad $) = 1$
+       - ### $\sec^{-1}(x)
+         The angle $\theta$ whose secant is $x$. E.g. $\sec^{-1}(1) = 0$ rad -> $\sec$( $0$ rad $) = 1$
          #### How to use?
          You need to enter `arcsec_unit(number)` to use this function.
       
-       - ### $\arccot(x)$
-         The angle $\theta$ whose cotangent is $x$. E.g. $\arccot(1) = \frac{π}{4}$ rad -> $\cot$( $\frac{π}{4}$ rad $) = 1$
+       - ### $\cot^{-1}(x)
+         The angle $\theta$ whose cotangent is $x$. E.g. $\cot^{-1}(1) = \frac{π}{4}$ rad -> $\cot$( $\frac{π}{4}$ rad $) = 1$
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
          
@@ -145,5 +145,18 @@
      You need to enter `infproduct(low_index, high_index, element)`
      
    * ### Hyperbolic functions
-     + ### Angular units
-       You're able to use different angular units. Check [the available ones](#angular-units).
+    + ### Angular units
+      You're able to use different angular units, use `function_` + `rad/deg/grad`.
+       
+      - #### Radiants (RAD)
+        Angular unit that has an amplitude range between $0$ and $2π$ (rad)
+        
+      - #### Degrees (DEG)
+        Angular unit that has an ampltiude range between $0$ and $360$ (°)
+ 
+      - #### Centesimal degrees (GRAD)
+        Angular unit that has an amplitude range between $0$ and $400$ (gon)
+         
+
+    + ### Basic functions
+      - ### \sin(\theta)
