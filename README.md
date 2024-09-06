@@ -82,17 +82,17 @@
          You need to enter `tan_unit(angle)` to use this function.
          
      + ### Inverse functions
-       - ### $\sin^{-1}(x)
+       - ### $\sin^{-1}(x)$
          The angle $\theta$ whose sine is $x$. E.g. $\sin^{-1}(0.5) = \frac{π}{6}$ rad -> $\sin$( $\frac{π}{6}$ rad $) = 0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
-       - ### $\cos^{-1}(x)
+       - ### $\cos^{-1}(x)$
          The angle $\theta$ whose cosine is $x$. E.g. $\cos^{-1}(0.5) = \frac{π}{3}$ rad -> $\cos$( $\frac{π}{3}$ rad $) = 0.5$
          #### How to use?
          You need to enter `arcsin_unit(number)` to use this function.
          
-       - ### $\tan^{-1}(x)
+       - ### $\tan^{-1}(x)$
          The angle $\theta$ whose tangent is $x$. E.g. $\tan^{-1}(1) = \frac{π}{4}$ rad -> $\tan$( $\frac{π}{4}$ rad $) = 1$
          #### How to use?
          You need to enter `arctan_unit(number)` to use this function.
@@ -114,17 +114,17 @@
          You need to enter `cot_unit(angle)` to use this function.
 
      + ### Inverse reciprocal functions
-       - ### $\csc^{-1}(x)
+       - ### $\csc^{-1}(x)$
          The angle $\theta$ whose cosecant is $x$. E.g. $\csc^{-1}(1) = \frac{π}{2}$ rad -> $\csc$( $\frac{π}{2}$ rad $) = 1$
          #### How to use?
          You need to enter `arccsc_unit(number)` to use this function.
          
-       - ### $\sec^{-1}(x)
+       - ### $\sec^{-1}(x)$
          The angle $\theta$ whose secant is $x$. E.g. $\sec^{-1}(1) = 0$ rad -> $\sec$( $0$ rad $) = 1$
          #### How to use?
          You need to enter `arcsec_unit(number)` to use this function.
       
-       - ### $\cot^{-1}(x)
+       - ### $\cot^{-1}(x)$
          The angle $\theta$ whose cotangent is $x$. E.g. $\cot^{-1}(1) = \frac{π}{4}$ rad -> $\cot$( $\frac{π}{4}$ rad $) = 1$
          #### How to use?
          You need to enter `arccot_unit(number)` to use this function.
