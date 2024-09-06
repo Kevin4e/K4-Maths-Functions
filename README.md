@@ -146,4 +146,4 @@
      
    * ### Hyperbolic functions
      + ### Angular units
-       You're able to use different angular units. Check [the available ones](###angular-units).
+       You're able to use different angular units. Check [the available ones](#angular-units).
