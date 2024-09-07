@@ -195,12 +195,12 @@
          
      + ### Inverse reciprocal functions
        - ### Hyperbolic arccosecant
-         ### $\csch{-1}(x) = \ln(\frac{1+sqrt{1+x^2}}{x})$
+         ### $\csch^{-1}(x) = \ln(\frac{1+sqrt{1+x^2}}{x})$
          ### How to use?
          You need to enter `arccsch(number)` to use this function.
          
        - ### Hyperbolic arcsecant
-         ### $\sech{-1}(x) = \ln(\frac{1+sqrt(1-x^2)}{x})$
+         ### $\sech^{-1}(x) = \ln(\frac{1+sqrt{1-x^2}}{x})$
          ### How to use?
          You need to enter `arcsech(number)` to use this function.
          
