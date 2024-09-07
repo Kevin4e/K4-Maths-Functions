@@ -163,17 +163,17 @@
          
      + ### Inverse functions
        - ### Hyperbolic arcsine
-         ### $\sinh^{-1}(x) = \ln(x + sqrt(x^2+1))$
+         ### $\sinh^{-1}(x) = \ln(x + \sqrt(x^2+1))$
          ### How to use?
          You need to enter `arcsinh(number)` to use this function.
  
        - ### Hyperbolic arccosine
-         ### $\cosh^{-1}(x) = \ln(x - sqrt(x^2+1))$$
+         ### $\cosh^{-1}(x) = \ln(x - \sqrt(x^2+1))$
          ### How to use?
          You need to enter `arccosh(number)` to use this function.
          
        - ### Hyperbolic arctangent
-         ### $\tanh^{-1}(x) = \frac{1}{2} \ln(\frac{1+x}{1-x})$
+         ### $\tanh^{-1}(x) = \frac{1}{2}$ $\ln\left( \frac{1+x}{1-x} \right)$
          ### How to use?
          You need to enter `arctanh(number)` to use this function.
 
@@ -195,12 +195,12 @@
          
      + ### Inverse reciprocal functions
        - ### Hyperbolic arccosecant
-         ### $\csch^{-1}(x) = \ln\left( \frac{1+sqrt{1+x^2}}{x} \right)$
+         ### $\csch^{-1}(x) = \ln\left( \frac{1+\sqrt{1+x^2}}{x} \right)$
          ### How to use?
          You need to enter `arccsch(number)` to use this function.
          
        - ### Hyperbolic arcsecant
-         ### $\sech^{-1}(x) = \ln\left( \frac{1+sqrt{1-x^2}}{x} \right)$
+         ### $\sech^{-1}(x) = \ln\left( \frac{1+\sqrt{1-x^2}}{x} \right)$
          ### How to use?
          You need to enter `arcsech(number)` to use this function.
          
