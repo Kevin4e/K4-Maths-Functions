@@ -205,7 +205,7 @@
          You need to enter `arcsech(number)` to use this function.
          
        - ### Hyperbolic arccotangent
-         ### $\coth{-1}(x) = \frac{1}{2} \ln(\frac{x+1}{x-1})$
+         ### $\coth{-1}(x) = \frac{1}{2} \ln(\frac({x+1}{x-1}))$
          ### How to use?
          You need to enter `arccoth(number)` to use this function.
 
