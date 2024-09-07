@@ -1,4 +1,6 @@
-﻿FACTORIAL
+﻿! None of the functions checks the input given. You'll have to implement them yourself !
+
+FACTORIAL
 1. You cannot use negative values;
 2. You cannot use decimal values;
 3. Values over 20 may lack full accuracy.
