@@ -35,7 +35,7 @@
      You need to enter `divisors(number)` to use this function.
      
    * ## Root
-     ### $\sqrt[i]{n} = a <=> n = a^i$
+     ### $\sqrt\limits[i]{n} = a <=> n = a^i$
      ### How to use?
      You need to enter `root(index, radicand)` to use this function.
      
