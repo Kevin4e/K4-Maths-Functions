@@ -210,7 +210,7 @@
          You need to enter `arccoth(number)` to use this function.
 
          
-# Notes
+# Main Notes
 -  None of the functions checks the input given. You'll have to implement them yourself.
 -  [test.cpp](https://github.com/Kevin4e/K4-Maths-Functions/blob/main/K4%20Maths%20Functions/test.cpp) is **<u>NOT</u>** part of the project! It contains a series of menu where you can get ideas on how to handle every function's **Conditions for Existence**.
 -  Huge numbers will lead to an integer overflow.
