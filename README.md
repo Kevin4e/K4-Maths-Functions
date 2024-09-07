@@ -35,7 +35,7 @@
      You need to enter `divisors(number)` to use this function.
      
    * ## Root
-     ### $\sqrt\limits[i]{n} = a <=> n = a^i$
+     ### $\sqrt[i]{n} = a <=> n = a^i$
      ### How to use?
      You need to enter `root(index, radicand)` to use this function.
      
@@ -130,7 +130,7 @@
          You need to enter `arccot_unit(number)` to use this function.
          
    * ## Gamma function (Stirling's formula)
-     ### $Γ(n) ∼ \sqrt\limits{2πn} \left( \frac{n}{e} \right)^{n}$
+     ### $Γ(n) ∼ \sqrt{2πn} \left( \frac{n}{e} \right)^{n}$
      ### How to use?
      You need to enter `gamma(number)` to use this function.
        
