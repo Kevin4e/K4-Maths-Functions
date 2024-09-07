@@ -164,6 +164,7 @@
      + ### Inverse functions
        - ### Hyperbolic arcsine
          ### $\sinh^{-1}(x) = \ln(x + \sqrt{x^2+1})$
+         ### $\sinh^{-1}(x) = \ln\left( x + \sqrt{x^2 + 1} \right)$
          ### How to use?
          You need to enter `arcsinh(number)` to use this function.
  
