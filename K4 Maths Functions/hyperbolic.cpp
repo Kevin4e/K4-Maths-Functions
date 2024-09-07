@@ -1,8 +1,5 @@
-#define _USE_MATH_DEFINES
-
 #include "..\includes\hyperbolic.h"
 #include <cmath>
-#include <iostream>
 
 // Inverse hyperbolic functions
 
