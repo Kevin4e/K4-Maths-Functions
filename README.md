@@ -5,7 +5,7 @@
 -  Depending on where you put the 'includes' and 'src' folders you will have to edit the `#include "function.h"`. Unless, if you use the same structure as this repository, then you won't have to edit anything.
 -  This collection provides the following functions:
    * ## Factorial
-     ### $n! = n * (n-1) * (n-2) * (n-3) * 3 * 2 * 1$
+     ### $n! = n * (n-1) * (n-2) * (n-3) * \cdots * 3 * 2 * 1$
      ### How to use?
      You need to enter `fact(number)` to use this function.
      
@@ -149,18 +149,34 @@
        - ### Hyperbolic sine
          ### $\sinh(x) = \frac{e^x - e^{-x}}{2}$
          ### How to use?
-         You need to enter `sinh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
+         You need to enter `sinh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !).
          
        - ### Hyperbolic cosine
          ### $\cosh(x) = \frac{e^x + e^{-x}}{2}$
          ### How to use?
-         You need to enter `cosh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
+         You need to enter `cosh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !).
          
        - ### Hyperbolic tangent
          ### $\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
          ### How to use?
-         You need to enter `tanh(number)`  (! ALREADY IMPLEMENTED IN `cmath` !)
+         You need to enter `tanh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !).
          
+     + ### Inverse functions
+       - ### Hyperbolic arcsine
+         ### $\sinh^{-1}(x) = \ln\left( x + \sqrt{x^2 + 1} \right)$
+         ### How to use?
+         You need to enter `arcsinh(number)` to use this function.
+ 
+       - ### Hyperbolic arccosine
+         ### $\cosh^{-1}(x) = \ln\left( x - \sqrt{x^2+1} \right)$
+         ### How to use?
+         You need to enter `arccosh(number)` to use this function.
+         
+       - ### Hyperbolic arctangent
+         ### $\tanh^{-1}(x) = \frac{1}{2}$ $\ln\left( \frac{1+x}{1-x} \right)$
+         ### How to use?
+         You need to enter `arctanh(number)` to use this function.
+
      + ### Reciprocal functions
        - ### Hyperbolic cosecant
          ### $\csch(x) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}} = \frac{2}{e^x - e^{-x}}$
@@ -176,5 +192,21 @@
          ### $\coth(x) = \frac{\cosh(x)}{\sinh(x)} = \frac{\frac{e^x + e^{-x}}{2}}{\frac{e^x - e^{-x}}{2}} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
          ### How to use?
          You need to enter `coth(number)` to use this function.
+         
+     + ### Inverse reciprocal functions
+       - ### Hyperbolic arccosecant
+         ### $\csch^{-1}(x) = \ln\left( \frac{1+\sqrt{1+x^2}}{x} \right)$
+         ### How to use?
+         You need to enter `arccsch(number)` to use this function.
+         
+       - ### Hyperbolic arcsecant
+         ### $\sech^{-1}(x) = \ln\left( \frac{1+\sqrt{1-x^2}}{x} \right)$
+         ### How to use?
+         You need to enter `arcsech(number)` to use this function.
+         
+       - ### Hyperbolic arccotangent
+         ### $\coth^{-1}(x) = \frac{1}{2}$ $\ln\left( \frac{x+1}{x-1} \right)$
+         ### How to use?
+         You need to enter `arccoth(number)` to use this function.
 
          
