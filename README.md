@@ -149,18 +149,34 @@
        - ### Hyperbolic sine
          ### $\sinh(x) = \frac{e^x - e^{-x}}{2}$
          ### How to use?
-         You need to enter `sinh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
+         You need to enter `sinh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !).
          
        - ### Hyperbolic cosine
          ### $\cosh(x) = \frac{e^x + e^{-x}}{2}$
          ### How to use?
-         You need to enter `cosh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !)
+         You need to enter `cosh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !).
          
        - ### Hyperbolic tangent
          ### $\tanh(x) = \frac{\sinh(x)}{\cosh(x)} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
          ### How to use?
-         You need to enter `tanh(number)`  (! ALREADY IMPLEMENTED IN `cmath` !)
+         You need to enter `tanh(number)` to use this function (! ALREADY IMPLEMENTED IN `cmath` !).
          
+     + ### Inverse functions
+       - ### Hyperbolic arcsine
+         ### $\sinh^{-1}(x) = \ln(x + sqrt(x^2+1))$
+         ### How to use?
+         You need to enter `arcsinh(number)` to use this function.
+ 
+       - ### Hyperbolic arccosine
+         ### $\cosh^{-1}(x) = \ln(x - sqrt(x^2+1))$$
+         ### How to use?
+         You need to enter `arccosh(number)` to use this function.
+         
+       - ### Hyperbolic arctangent
+         ### $\tanh{-1}(x) = \frac{1}{2} \ln(\frac{1+x}{1-x})$
+         ### How to use?
+         You need to enter `arctanh(number)` to use this function.
+
      + ### Reciprocal functions
        - ### Hyperbolic cosecant
          ### $\csch(x) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}} = \frac{2}{e^x - e^{-x}}$
@@ -176,5 +192,21 @@
          ### $\coth(x) = \frac{\cosh(x)}{\sinh(x)} = \frac{\frac{e^x + e^{-x}}{2}}{\frac{e^x - e^{-x}}{2}} = \frac{e^x - e^{-x}}{e^x + e^{-x}}$
          ### How to use?
          You need to enter `coth(number)` to use this function.
+         
+     + ### Inverse reciprocal functions
+       - ### Hyperbolic arccosecant
+         ### $\csch{-1}(x) = \ln(\frac{1+sqrt(1+x^2)}{x})$
+         ### How to use?
+         You need to enter `arccsch(number)` to use this function.
+         
+       - ### Hyperbolic arcsecant
+         ### $\sech{-1}(x) = \ln(\frac{1+sqrt(1-x^2)}{x})$
+         ### How to use?
+         You need to enter `arcsech(number)` to use this function.
+         
+       - ### Hyperbolic arccotangent
+         ### $\coth{-1}(x) = \frac{1}{2} \ln(\frac{x+1}{x-1})$
+         ### How to use?
+         You need to enter `arccoth(number)` to use this function.
 
          
