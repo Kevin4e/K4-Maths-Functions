@@ -1,0 +1,179 @@
+﻿FACTORIAL
+1. You cannot use negative values;
+2. You cannot use decimal values;
+3. Values over 20 may lack full accuracy.
+
+
+
+LOGARITHM
+
+- Base
+1. You cannot use values less or equal to 0;
+2. You cannot use "1" value.
+
+- Argument
+1. You cannot use values less or equal to 0.
+
+
+
+NATURAL LOGARITHM
+1. You cannot use values less or equal to 0.
+
+
+
+PRIME NUMBER CHECK
+1. Boolean function, which means it will not print "It's a prime" or anything else.
+
+Here's how you can use with this function:
+
+	if (isPrime(n) ) {
+	/*
+		Instructions
+	*/
+	}
+
+
+
+MULTIPLES
+1. The limit value cannot be less than the number.
+2. Limit and number cannot be decimal values.
+
+
+
+DIVISORS
+1. You cannot use decimal values.
+
+
+
+ROOT
+
+- Index
+1. You cannot use "0" value
+
+- Radicand
+1. You cannot use negative values when the index is an even value.
+
+
+
+GREATEST COMMON DIVISOR
+1. You cannot use decimal values.
+
+
+
+LEAST COMMON MULTIPLE
+1. You cannot use decimal values
+
+
+
+TRIGONOMETRY FUNCTIONS
+
+	- Sine
+	1. Any angle is valid.
+
+	- Cosine
+	1. Any angle is valid.
+
+	- Tangent
+	1. You cannot use angles that are equal to (k is an integer):
+	   RAD:  π/2 rad + kπ rad.
+	   DEG:  90° + k × 180°.
+	   GRAD: 100 gon + k × 200 gon.
+	   
+
+	- Arcsine
+	1. You cannot use values that are less than -1 or greater than 1.
+
+	- Arccosine
+	1. You cannot use values that are less than -1 or greater than 1.
+
+	- Arctangent
+	1. Any value is valid.
+
+
+	- Cosecant
+	1. You cannot use angles that are equal to (k is an integer):
+	   RAD:  kπ rad
+	   DEG:  k × 180°
+	   GRAD: k × 200 gon
+
+	- Secant
+	1. You cannot use angles that are equal to (k is an integer):
+	   RAD:  π/2 rad + kπ rad.
+	   DEG:  90° + k × 180°.
+	   GRAD: 100 gon + k × 200 gon.
+	 
+	- Cotangent
+	1. You cannot use angles that are equal to (k is an integer):
+	   RAD:  kπ rad.
+	   DEG:  k × 180°.
+	   GRAD: k × 200 gon.
+
+
+	- Arccosecant
+	1. You cannot use values between -1 and 1 (excluding -1 and 1).
+
+	- Arcsecant
+	1. You cannot use values between -1 and 1 (excluding -1 and 1).
+
+	- Arccotangent
+	1. Any number is valid.
+
+
+
+GAMMA FUNCTION (Stirling's approximation)
+1. This function has been approximated via Stirling's formula, hence results may lack full accuracy;
+2. You cannot use negative values, as the approximation involves the value inside of a square root, which is undefined when for negative values.
+
+
+
+SUMMATION
+1. Any value is valid.
+
+
+
+INFINITE PRODUCT
+1. Any value is valid.
+
+
+
+HYPERBOLIC FUNCTIONS
+
+	- Hyperbolic sine
+	1. Any value is valid.
+
+	- Hyperbolic cosine
+	1. Any value is valid.
+
+	- Hyperbolic tangent
+	1. Any value is valid
+	   
+
+	- Hyperbolic arcsine
+	1. Any value is valid.
+
+	- Hyperbolic arccosine
+	1. You cannot use values less than 1.
+
+	- Hyperbolic arctangent
+	1. You cannot use values less than or equal to -1 or greater than or equal to 1.
+
+
+	- Hyperbolic cosecant
+	1. You cannot use "0" value.
+
+	- Hyperbolic secant
+	1. Any value is valid.
+
+	 
+	- Hyperbolic cotangent
+	1. You cannot use "0" value.
+
+
+	- Hyperbolic arccosecant
+	1. You cannot use "0" value.
+
+	- Hyperbolic arcsecant
+	1. You cannot use values greater than 1 or less than or equal to 0.
+
+	- Hyperbolic arccotangent
+	1. You cannot use values between -1 and 1 (-1 and 1 included).
