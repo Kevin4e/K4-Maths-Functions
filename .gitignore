@@ -7,8 +7,6 @@
 *.ncb
 *.sdf
 *.opensdf
-*.suo
-*.suo*
 *.dbmdl
 *.pdb
 *.opendb
@@ -53,6 +51,7 @@
 *.app
 
 
+/.vs
 /releases
 /K4 Maths Functions/K4 Maths.2f3432f2
 /K4 Maths Functions/x64
