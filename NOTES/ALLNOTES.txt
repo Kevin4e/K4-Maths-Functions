@@ -118,7 +118,7 @@ TRIGONOMETRY FUNCTIONS
 	1. You cannot use values between -1 and 1 (excluding -1 and 1).
 
 	- Arccotangent
-	1. Any number is valid.
+	1. Any value is valid.
 
 
 
