@@ -124,7 +124,7 @@ TRIGONOMETRY FUNCTIONS
 
 GAMMA FUNCTION (Stirling's approximation)
 1. This function has been approximated via Stirling's formula, hence results may lack full accuracy;
-2. You cannot use negative values, as the approximation involves the value inside of a square root, which is undefined when for negative values.
+2. You cannot use negative values, as the approximation involves the value inside of a square root, which is undefined when negative values.
 
 
 
