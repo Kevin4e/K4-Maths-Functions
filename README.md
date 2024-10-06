@@ -2,7 +2,9 @@
 
 # Usage
 -  Download the latest release from [here](https://github.com/Kevin4e/K4-Maths-Functions/releases).
+
 -  Depending on where you put the 'includes' and 'src' folders you will have to edit the `#include "function.h"`. Unless, if you use the same structure as this repository, then you won't have to edit anything.
+
 -  This collection provides the following functions:
    * ## Factorial
      ### $n! = n * (n-1) * (n-2) * (n-3) * \cdots * 3 * 2 * 1$
@@ -212,9 +214,12 @@
          
 # Main Notes
 -  None of the functions checks the input given. You'll have to implement them yourself.
+
 -  [test.cpp](https://github.com/Kevin4e/K4-Maths-Functions/blob/main/K4%20Maths%20Functions/test.cpp) is **<u>NOT</u>** part of the project! It contains a series of menu where you can get ideas on how to handle every function's **Conditions for Existence**.
+
 -  Huge numbers will lead to an integer overflow.
+
 -  The "Prime number check" function is boolean. Using it will not print if it's either prime or not.
 
 # Troubleshooting
--  If you experience any wrong results / unexpected situations, before you [submit an issue](https://github.com/Kevin4e/K4-Maths-Functions/issues), please check [all the notes](https://github.com/Kevin4e/K4-Maths-Functions/blob/main/NOTES/ALLNOTES.txt).
+-  If you experience any wrong results or unexpected situations, before you [submit an issue](https://github.com/Kevin4e/K4-Maths-Functions/issues), please check [all the notes](https://github.com/Kevin4e/K4-Maths-Functions/blob/main/NOTES/ALLNOTES.txt).
