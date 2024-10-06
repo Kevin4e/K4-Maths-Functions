@@ -181,12 +181,12 @@
 
      + ### Reciprocal functions
        - ### Hyperbolic cosecant
-         ### $\operatorname{csch}\left(x\right) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}} = \frac{2}{e^x - e^{-x}}$
+         ### $\csch(x) = \frac{1}{\sinh(x)} = \frac{1}{\frac{e^x - e^{-x}}{2}} = \frac{2}{e^x - e^{-x}}$
          ### How to use?
          You need to enter `csch(number)` to use this function.
 
        - ### Hyperbolic secant
-         ### $\operatorname{sech}\left(x\right) = \frac{1}{\cosh(x)} = \frac{1}{\frac{e^x + e^{-x}}{2}} = \frac{2}{e^x + e^{-x}}$
+         ### $\sech(x) = \frac{1}{\cosh(x)} = \frac{1}{\frac{e^x + e^{-x}}{2}} = \frac{2}{e^x + e^{-x}}$
          ### How to use?
          You need to enter `sech(number)` to use this function.
 
@@ -197,12 +197,12 @@
          
      + ### Inverse reciprocal functions
        - ### Hyperbolic arccosecant
-         ### $\operatorname{csch}^{-1}\left(x\right) = \ln\left( \frac{1+\sqrt{1+x^2}}{x} \right)$
+         ### $\csch^{-1}(x) = \ln\left( \frac{1+\sqrt{1+x^2}}{x} \right)$
          ### How to use?
          You need to enter `arccsch(number)` to use this function.
          
        - ### Hyperbolic arcsecant
-         ### $\operatorname{sech}^{-1}\left(x\right) = \ln\left( \frac{1+\sqrt{1-x^2}}{x} \right)$
+         ### $\sech^{-1}(x) = \ln\left( \frac{1+\sqrt{1-x^2}}{x} \right)$
          ### How to use?
          You need to enter `arcsech(number)` to use this function.
          
